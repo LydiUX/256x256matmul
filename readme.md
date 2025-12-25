@@ -1,0 +1,1 @@
+Efficiently computes the product of two 256x256 matrices. Uses 1 layer of Strassen and handles the resulting seven 128x128 matrices using naive outer-product matrix multiplication optimized by SIMD avx2 instructions. The result is returned as the squared Frobenius norm of the matrix product.
